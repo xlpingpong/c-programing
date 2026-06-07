@@ -2,8 +2,8 @@
 C programing learning and practice.
 solutions of leetcode practices.
  ************/
-#ifndef CODINGSOLUTIONS_H
-#define CODINGSOLUTIONS_H
+#ifndef LEETCODE_SOLUTIONS_H
+#define LEETCODE_SOLUTIONS_H
 
 /************
  * 49. 字母异位词分组
@@ -20,4 +20,4 @@ solutions of leetcode practices.
     
 // }
 
-#endif // CODINGSOLUTIONS_H
+#endif // LEETCODE_SOLUTIONS_H

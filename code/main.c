@@ -12,7 +12,7 @@ int main()
 {
     printf("Program start.\n\n");
     // 代码开始
-    test_size_t();
+    test_unsigned_char();
 
     // 代码结束
     printf("\nProgram ends!\n");
