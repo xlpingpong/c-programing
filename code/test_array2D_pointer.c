@@ -4,7 +4,7 @@ put test code (function definition) here,
 and their declaration in *.c file.
  ************/
 
-#include "./include/test_c.h"
+#include "../include/test_c.h"
 
 // int test2DArrayAndPointer()
 // {
