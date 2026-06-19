@@ -8,6 +8,7 @@ and their declaration here.
 
 #include "test_common.h"
 #include "test_basic_datatype.h"
+#include "test_string_pointers.h"
 
 /************
 array and pointer.

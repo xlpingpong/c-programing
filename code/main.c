@@ -3,7 +3,7 @@
 ***/
 #include <stdio.h>
 #include "../include/test_c.h"
-#include "../leetcode/codingsoltions.h"
+#include "../leetcode/leetcode_soltions.h"
 
 /************
  * debug -exec x/4wx ptr

@@ -12,9 +12,10 @@
 // Basic macro
 #define SUCCESS 0
 #define FAIL 1
-# define ROW_COL_NUM_2 2
-# define ROW_COL_NUM_3 3
-# define ROW_COL_NUM_4 4
+#define ROW_COL_NUM_2 2
+#define ROW_COL_NUM_3 3
+#define ROW_COL_NUM_4 4
+#define MIN(x, y) (((x) < (y))? (x): (y))
 
 // Basic enum
 typedef enum RowColumIndex {

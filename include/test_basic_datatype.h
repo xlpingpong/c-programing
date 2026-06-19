@@ -30,15 +30,13 @@ int test_unsigned_char(void)
     unsigned char val0 = 255;
     unsigned char val1 = val0 + 1;
     printf("unsigned char: value = %d, value + 1 is %d, size is %d.\n", val0, val1, sizeof(val0));
-    return SUCCESS;
-}
 
-// unsigned char, 翻转
-int test_unsigned_char(void)
-{
-    unsigned char val0 = 255;
-    unsigned char val1 = val0 + 1;
-    printf("unsigned char: value = %d, value + 1 is %d, size is %d.\n", val0, val1, sizeof(val0));
+    unsigned char a = 0;
+    printf("result %%d is: %d.\n", MIN(a - 1, 10));
+    printf("result %%u is: %u.\n", MIN(a - 1, 10));
+    printf("result %%c is: %c.\n", MIN(a - 1, 10));
+    unsigned char b = MIN(a - 1, 10);
+    printf("result is: %d.\n", b);
     return SUCCESS;
 }
 
